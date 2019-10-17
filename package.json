@@ -1,0 +1,22 @@
+{
+  "name": "react-next-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 80",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.23.4",
+    "babel-node": "^0.0.1-security",
+    "babel-plugin-import": "^1.12.2",
+    "markdown-navbar": "^1.0.7",
+    "next": "9.0.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-markdown": "^4.2.2"
+  }
+}
